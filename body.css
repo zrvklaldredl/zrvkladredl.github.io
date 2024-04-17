@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #5d55d1d8;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0, 0, 0);
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+}
+
+.paragraph {
+  color: #000000;
+}
+
+#submit-btn {
+  background-color: #fbff00;
+  color: #51ff00;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  background-color: #0056b3;
+}
+.highlight {
+  background-color: rgb(0, 0, 0);
+  font-weight: bold;
+  color: #ffffff; 
+}
+.person {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  animation: move 10s linear infinite alternate;
+}
+
+@keyframes move {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: 700px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
